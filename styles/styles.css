@@ -1,0 +1,105 @@
+/* Reset de estilos para uma base consistente */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Defina uma paleta de cores */
+  :root {
+    --cor-primaria: #007BFF;
+    --cor-secundaria: #6C757D;
+  }
+  
+  /* Estilize o corpo da página */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+  }
+  
+  /* Estilize cabeçalhos */
+  h1 {
+    font-size: 24px;
+    color: var(--cor-primaria);
+  }
+  
+  h2 {
+    font-size: 20px;
+    color: var(--cor-secundaria);
+  }
+  
+  /* Estilize botões */
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--cor-primaria);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  /* Estilize links */
+  a {
+    color: var(--cor-primaria);
+    text-decoration: none;
+  }
+  
+  /* Estilize formulários */
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Estilize imagens */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Layout da página */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilize a navegação */
+  .nav {
+    background-color: var(--cor-primaria);
+    padding: 10px 0;
+  }
+  
+  .nav a {
+    color: #fff;
+    margin-right: 20px;
+  }
+  
+  /* Estilize o rodapé */
+  .footer {
+    background-color: var(--cor-primaria);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    /* Estilos para telas menores */
+    .container {
+      padding: 10px;
+    }
+  }
+  

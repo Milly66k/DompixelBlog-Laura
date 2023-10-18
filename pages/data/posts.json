@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "title": "Minha primeira postagem",
+      "content": "Este é o conteúdo da minha primeira postagem no blog. Lorem ipsum dolor sit amet.",
+      "coverImage": "imagem1.jpg",
+      "date": "2023-10-18"
+    },
+    {
+      "id": 2,
+      "title": "Uma postagem sobre Next.js",
+      "content": "Next.js é uma ótima estrutura para construir aplicativos da web. Lorem ipsum dolor sit amet.",
+      "coverImage": "imagem2.jpg",
+      "date": "2023-10-19"
+    },
+    {
+      "id": 3,
+      "title": "Dicas de React",
+      "content": "Aqui estão algumas dicas úteis para desenvolver com React. Lorem ipsum dolor sit amet.",
+      "coverImage": "imagem3.jpg",
+      "date": "2023-10-20"
+    }
+  ]
+  
