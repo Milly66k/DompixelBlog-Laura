@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { MantineProvider } from '@mantine/core';
-import '../styles/styles.css';
+import '../../styles/styles.css';
 
 function MyApp({ Component, pageProps }) {
   return (

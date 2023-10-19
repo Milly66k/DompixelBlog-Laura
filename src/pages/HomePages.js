@@ -19,6 +19,7 @@ function HomePage() {
       });
   }, []);
 
+
   return (
     <div>
       <h1>Lista de Postagens</h1>
@@ -40,20 +41,6 @@ function HomePage() {
 }
 
 
-const [posts, setPosts] = useState([]);
-useEffect(() => {
-  fetch('/api/posts') // Substitua pela rota da sua API falsa
-    .then((response) => response.json())
-    .then((data) => {
-      setPosts(data);
-    })
-    .catch((error) => {
-      console.error('Erro ao buscar postagens:', error);
-    });
-}, []);
-
-const novaPostagem = { title: 'Título da nova postagem', content: 'Conteúdo da nova postagem' };
-setPosts([...posts, novaPostagem]);
 
 
 export default HomePage;
